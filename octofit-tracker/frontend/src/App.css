@@ -1,0 +1,140 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #007bff; /* Blue navigation menu */
+}
+
+.navbar .nav-link {
+  color: white; /* White links */
+}
+
+.navbar .nav-link:hover {
+  color: #ffcc00; /* Yellow on hover */
+}
+
+.navbar-nav .nav-item .nav-link {
+  background-color: #007bff; /* Blue background for tabs */
+  color: white; /* White text color */
+  margin: 0 5px; /* Add some spacing between tabs */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for better appearance */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white; /* Keep text white */
+  transform: scale(1.1); /* Slightly enlarge the tab on hover */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+  background-color: #ff5733; /* Red for Activities */
+}
+
+.navbar-nav .nav-item:nth-child(2) .nav-link {
+  background-color: #33c1ff; /* Blue for Leaderboard */
+}
+
+.navbar-nav .nav-item:nth-child(3) .nav-link {
+  background-color: #33ff57; /* Green for Teams */
+}
+
+.navbar-nav .nav-item:nth-child(4) .nav-link {
+  background-color: #ff33a8; /* Pink for Users */
+}
+
+.navbar-nav .nav-item:nth-child(5) .nav-link {
+  background-color: #ffc133; /* Yellow for Workouts */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Blue headings */
+}
+
+button {
+  background-color: #007bff; /* Blue buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #007bff; /* Blue table headers */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+table tr:hover {
+  background-color: #ddd; /* Gray on hover */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  float: left;
+  margin-right: 20px;
+  height: 50px; /* Adjusted size for logo */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #007bff; /* Blue links */
+}
+
+.App-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
